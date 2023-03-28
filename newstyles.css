@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+@font-face {
+    font-family: 'Space';
+    src: url('./fonts/SPACETHINK.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -614,7 +619,18 @@ button[type="submit"]:hover {
 
 
 
+/* Js scroll */
 
+
+.js-scroll {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+    opacity: 1;
+}
 
 
 
