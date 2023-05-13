@@ -61,74 +61,7 @@ width: 70%; text-align: center;}
     cursor: pointer;
 }
 
-.invisibleArticles{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    height: 90%;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    height: 80vh;
-    overflow-y: scroll;
-    background-color: #222;
-    gap: 20px;
-    z-index: 999999999999999999999999999999;
-}
 
-.invisibleArticles h1{
-    width: 100%;
-    text-align: center;
-    color: #af9a5f;
-}
-
-.invisibleArticles h2{
-    margin-bottom: 20px 0;
-}
-.invisibleArticles h2, .invisibleArticles p, .invisibleArticles a, .invisibleArticles li{
-    color: white;
-}
-
-.invisibleArticles>img{
-    margin: 40px 0;
-}
-
-.invisibleArticles ul{ list-style: circle; margin-left: 30px; display: flex; flex-direction: column; gap: 30px; margin-bottom: 30px;}
-
-.invisibleArticles section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 40px 20px;
-    background-color: #626262;
-    border-radius: 15px;
-    justify-content: center;
-}
-
-.invisibleArticles section img{
-    width: 20%;
-}
-
-.invisibleArticles .annonceStage{
-    color: red;
-    font-weight: bold;
-}
-
-.fa-x{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    font-size: 2rem;
-    color: white;
-    cursor: pointer;
-}
-
-.closeArticle{
-    text-decoration: underline;
-    color: rgb(121, 121, 241) !important;
-    cursor: pointer;
-}
 
 @media (max-width:978px) {
     .trainingCard{
@@ -163,3 +96,6 @@ width: 70%; text-align: center;}
         width: 100%;
     }
 }
+
+/* Articles */
+

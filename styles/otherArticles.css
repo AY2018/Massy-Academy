@@ -1,0 +1,89 @@
+
+.invisibleArticles{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #222;
+    padding: 160px 10%;
+    gap: 20px;
+}
+
+.linkBack{
+    font-size: 2rem;
+}
+
+
+.invisibleArticles h1{
+    width: 100%;
+    text-align: center;
+    color: #af9a5f;
+}
+
+.invisibleArticles h2{
+    margin-bottom: 20px 0;
+}
+.invisibleArticles h2, .invisibleArticles p, .invisibleArticles a, .invisibleArticles li{
+    color: white;
+}
+
+.invisibleArticles>img{
+    margin: 40px 0;
+}
+
+.invisibleArticles ul{ list-style: circle; margin-left: 30px; display: flex; flex-direction: column; gap: 30px; margin-bottom: 30px;}
+
+.invisibleArticles section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #626262;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.invisibleArticles section img{
+    width: 20%;
+}
+
+.invisibleArticles .annonceStage{
+    color: red;
+    font-weight: bold;
+}
+
+.fa-x{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.closeArticle{
+    text-decoration: underline;
+    color: rgb(121, 121, 241) !important;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .invisibleArticles{
+        padding: 100px 10%;
+    }
+
+    .invisibleArticles section img{
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .invisibleArticles {
+        padding: 80px 5%;
+    }
+
+    .invisibleArticles section img {
+        width: 45%;
+    }
+}

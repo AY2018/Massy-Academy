@@ -35,6 +35,7 @@
     background-color: #af9a5f;
     padding: 16px 32px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .banner_btns .btn:nth-child(2){
