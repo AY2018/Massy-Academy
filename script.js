@@ -4,7 +4,7 @@
 
 window.addEventListener('scroll', function() {
     var button = document.getElementById('topPage');
-    if (window.scrollY >= 1000) {
+    if (window.scrollY >= 600) {
       button.style.display = 'block';
     } else {
       button.style.display = 'none';
@@ -15,7 +15,7 @@ window.addEventListener('scroll', function() {
   window.addEventListener('scroll', function() {
     var header = document.getElementById('header');
 
-    if (window.scrollY >= 1000) {
+    if (window.scrollY >= 600) {
       header.classList.add("headerStatic");
     } else {
       header.classList.remove("headerStatic");
@@ -25,7 +25,7 @@ window.addEventListener('scroll', function() {
     window.addEventListener('scroll', function() {
     var hamburger = this.document.getElementById('btnNavChange');
 
-    if (window.scrollY <= 1000) {
+    if (window.scrollY <= 600) {
       hamburger.classList.add('hamburgerBlack');
     } else {
       hamburger.classList.remove('hamburgerBlack');

@@ -27,8 +27,11 @@
         z-index: 9999999999999999;
     }
 
+    .headerStatic{
+        height: 10vh;
+    }
     .headerStatic .navOther{
-        top: 5vh;
+        top: 10vh;
     }
     .navOther ul{
         flex-direction: column;
