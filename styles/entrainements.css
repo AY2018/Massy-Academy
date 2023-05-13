@@ -1,0 +1,163 @@
+.in{
+    color: #af9a5f;
+}
+
+article{
+    padding: 160px 10%;
+    display: flex;
+}
+
+.coachAhmed{
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    background-color: #222;
+}
+
+.coachAhmed h1, .coachAhmed p{color: white;
+width: 70%; text-align: center;}
+
+.coachAhmed p{
+    text-align: justify;
+}
+.coachAhmed span{
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.training{
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 160px 5%;
+}
+
+.trainingCard{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.trainingCard h1{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.training p{
+    text-align: justify;
+}
+
+.trainingCard button{
+    padding: 13px 36px;
+    border-radius: 10px;
+    background-color: #af9a5f;
+    border: 1Px solid black;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.invisibleArticles{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    overflow-y: scroll;
+    background-color: #222;
+    gap: 20px;
+}
+
+.invisibleArticles h1{
+    width: 100%;
+    text-align: center;
+    color: #af9a5f;
+}
+
+.invisibleArticles h2{
+    margin-bottom: 20px 0;
+}
+.invisibleArticles h2, .invisibleArticles p, .invisibleArticles a, .invisibleArticles li{
+    color: white;
+}
+
+.invisibleArticles>img{
+    margin: 40px 0;
+}
+
+.invisibleArticles ul{ list-style: circle; margin-left: 30px; display: flex; flex-direction: column; gap: 30px; margin-bottom: 30px;}
+
+.invisibleArticles section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #626262;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.invisibleArticles section img{
+    width: 20%;
+}
+
+.invisibleArticles .annonceStage{
+    color: red;
+    font-weight: bold;
+}
+
+.fa-x{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.closeArticle{
+    text-decoration: underline;
+    color: rgb(121, 121, 241) !important;
+    cursor: pointer;
+}
+
+@media (max-width:978px) {
+    .trainingCard{
+        width: 45%;
+    }
+}
+
+@media (max-width:768px) {
+
+    .invisibleArticles section img {
+        width: 40%;
+    }
+}
+
+@media (max-width:500px) {
+    .trainingCard {
+        width: 100%;
+    }
+
+    .training{
+        gap: 80px;
+    }
+    
+    .coachAhmed h1, .coachAhmed p{
+        width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+
+    .invisibleArticles section img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,90 @@
+main{
+    background-color: #222;
+}
+
+
+article{
+    padding: 160px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+article h1{
+    color: white;
+}
+
+
+article h2 {
+    color: #af9a5f;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+
+.row{
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.step2{
+    background-color: #ffeab0;
+}
+
+.step3 {
+    background-color: #ffde85;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.filesDld{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filesDld a{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.filesDld a:hover {
+    background-color: #222;
+    color: white;
+}
+
+.mailBtn{
+    padding: 6px 66px;
+    border-radius: 25px;
+    background-color: white;
+    position: relative;
+    border: #222 1px solid;
+}
+
+@media (max-width : 1350px) {
+    .row{
+        width: 70%;
+    }
+}
+
+@media (max-width : 1024px) {
+    .row {
+        width: 90%;
+    }
+}
+
+@media (max-width : 768px) {
+    .row {
+        width: 100%;
+    }
+}

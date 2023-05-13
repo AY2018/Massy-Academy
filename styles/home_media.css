@@ -1,0 +1,136 @@
+@media (max-width:768px) {
+
+    /* Banner */
+    .banner section{
+        display: none;
+    }
+
+
+    /* President */
+    .president{
+        flex-direction: column-reverse;
+    }
+    .president .president_text, .president figure{
+        width: 100%;
+    }
+
+    /*Prsentation*/
+    .presentation{
+        flex-direction: column;
+    }
+    .presentation_text{
+        width: 100%;
+    }
+    .presentation_image{
+        width: 90%;
+    }
+
+    .presentation::before{
+    top: 10%;
+    right: 0;
+    transform: translateY(-10%);
+    }
+
+    .presentation::after{
+    bottom: 0;
+    transform: translateY(50%);
+    left: 0;
+    right: 0;
+    height: 300px !important;
+    width: 100% !important;
+    }
+
+    /*Dimensions*/
+    .dimensions h1 {
+        font-size: 2rem;
+    }
+
+    .dimensions_text{
+        flex-direction: column;
+    }
+    .dimensions_text div{
+        width: 100%;
+    }
+
+    /*Entrainements*/
+    .entrainements{
+        flex-direction: column;
+    }
+
+    .entrainements_text{
+        width: 100%;
+    }
+    .entrainements_text, .entrainements_image{
+        width: 90%;
+    }
+
+    .entrainements::after{
+    bottom: 0;
+    transform: translateY(50%);
+    left: 0;
+    right: 0;
+    height: 300px !important;
+    width: 100% !important;
+    }
+
+
+    .inscriptions_text h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    
+
+    /*Contact*/
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact_text{
+        width: 100%;
+    }
+
+    .contact_img{
+        display: none;
+    }
+}
+
+
+
+@media (max-width:1025px) {
+    .presentation::after, .entrainements::after{
+    width: 250px;
+    height: 250px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .presentation::before, .entrainements::before, .dimensions::before {
+        font-size: 150px;
+        top: 0;
+        right: 0;
+    }
+    .presentation::before{
+        left: 0 !important;
+    }
+
+    .president{
+        padding-top: 50px;
+    }
+
+    .president .president_text h1{
+        font-size: 2rem;
+    }
+    .inscriptions{
+        padding: 100px 0;
+    }
+    .inscriptions_text h1 {
+        font-size: 1.5rem;
+    }
+
+        .inscriptions_text {
+            width: 90%};
+
+}

@@ -1,0 +1,32 @@
+/* SVG animation */
+
+#Ellipse1,
+#Ellipse2 {
+    stroke-dashoffset: 645;
+    stroke-dasharray: 645;
+    animation: drawSVG 1s forwards 1s;
+}
+
+svg path {
+    stroke-dashoffset: 645;
+    stroke-dasharray: 645;
+    animation: drawSVG 2s forwards 2s;
+}
+
+svg g {
+    fill-opacity: 0;
+    animation: fillSVG 1s ease forwards 2.5s;
+}
+
+
+@keyframes drawSVG {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fillSVG {
+    to {
+        fill-opacity: 1;
+    }
+}
